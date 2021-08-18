@@ -1,5 +1,30 @@
 h1 {
     color: red;
     background-color:blue;
+    background-image: cross-fade();
 }
 
+#no-sleep{
+    background-color: turquoise;
+    transform: rotate(-8deg);
+    font-size: 24px;
+    color: coral;
+}
+
+#no-sleep{
+        background: url(https://media.giphy.com/media/lYgsRPkt16EL5U2fvR/giphy.gif);
+        background-size: cover;
+        background-position: center;
+        
+        -webkit-background-clip: text;
+        color: transparent;
+        
+        width: 300px;
+        height: 100px;
+        box-sizing: border-box;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 30px;
+        flex-shrink: 0;
+}
