@@ -1,0 +1,66 @@
+*{
+    padding: 10px;
+    margin: 0px;
+}
+
+#useless{
+font-style:oblique;
+
+}
+
+
+h1{
+    color: bisque;
+    font-size: 69px;
+}
+
+.gif{
+    width: 400px;
+    height: 200px;
+    background: transparent;
+    background: url();
+    padding: 20px;
+   
+}
+
+ html header h1{
+    color: lightcoral;
+}
+
+ul{
+    background: url(https://media.giphy.com/media/OK5LK5zLFfdm/giphy.gif?cid=ecf05e47k6vxz0sjqjut353b4o1ote5vuod5gzsiizfew1xx&rid=giphy.gif&ct=g://media4.giphy.com/media/1qWlkZHTQ9R34Taixl/giphy.gif?cid=ecf05e47w0dml3qog6ahp3nqhfip75psqtxup8h9loy74a6l&rid=giphy.gif&ct=g);
+    background-clip: text;
+    background-repeat: no-repeat;
+    color:whitesmoke;
+}
+
+div p{
+color: yellowgreen;
+}
+
+div > p{
+    border-style: dotted;
+}
+
+
+h1::after{
+    content: " CSS NOT HTML";
+}
+
+img:hover{
+    background: url(https://media.giphy.com/media/6EUl7bx27jvpu/giphy.gif?cid=ecf05e47nr6eiy06exqf1ol82tniaskanwagdssyz2xwhcv6&rid=giphy.gif&ct=g);
+    background-blend-mode:lighten;
+}
+
+div:not(img){
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+    
+li:nth-child(2)
+{
+    color: lightsalmon;
+}
+
+ul li:first-child{
+    border-top: red 2px dotted;
+}
