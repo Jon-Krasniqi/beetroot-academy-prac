@@ -42,7 +42,7 @@ h2 {
 }
 
 .half-main__text {
-  padding: 264px 200px 0 165px;
+  margin: 165px 130px 105px;
 }
 
 .half-main__text h1 {
@@ -59,25 +59,25 @@ h2 {
   margin-bottom: 65px;
 }
 
-.half-main-two {
+.half-main-rev {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
 }
 
-.half-main__text-two {
+.half-main-rev__text {
   margin: 165px 130px 105px;
 }
 
-.half-main__text-two p {
+.half-main-rev__text p {
+  padding: 40px 0 40px;
+  display: flex;
+  flex-wrap: wrap;
   width: 441px;
   font-size: 20px;
   line-height: 140.62%;
   text-align: justify;
   color: #000000;
-  padding: 40px 0 40px;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .btn {
