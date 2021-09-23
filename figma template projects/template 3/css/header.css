@@ -1,0 +1,40 @@
+header {
+  background-color: #f4f6f7;
+}
+
+.header {
+  padding: 2.7% 7.5% 0 7.5%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4f6f7;
+}
+
+.header__list {
+  display: flex;
+}
+
+.header__list li a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 86%;
+  color: #13253a;
+  margin-left: 50px;
+}
+
+.hamburger {
+  display: none;
+  z-index: 3;
+  position: relative;
+}
+
+.hamburger span {
+  width: 30px;
+  height: 5px;
+  display: block;
+  background-color: rgb(168, 167, 164);
+}
+
+.hamburger span:not(:last-child) {
+  margin-bottom: 5px;
+}

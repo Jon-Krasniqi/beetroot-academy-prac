@@ -1,0 +1,303 @@
+/* Media query per phones */
+@media only screen and (max-width: 767px) {
+  .container {
+    max-width: 767px;
+    margin: 0 15px;
+  }
+
+  .main-flex {
+    flex-direction: column;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+
+  .header-logo img {
+    width: 75%;
+  }
+
+  .header__list {
+    top: 0;
+    left: 100%;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.8);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .header__list.active {
+    left: 0%;
+  }
+
+  .header__list ul {
+    margin: 0;
+    flex-direction: column;
+  }
+
+  .header__list li {
+    margin: 0px;
+  }
+
+  .header__list li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .header__list li a {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .main-section__img img {
+    width: 100%;
+  }
+
+  .main-text {
+    padding-top: 0;
+  }
+
+  .diff-size-title p {
+    font-size: 13px;
+  }
+
+  .diff-size-title h2 {
+    font-size: 30px;
+  }
+
+  .main-text p {
+    font-size: 13px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+
+  .diff-size-title--services {
+    padding-bottom: 15px;
+  }
+
+  .services-section {
+    padding: 60px 0 50px;
+  }
+
+  .services-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .services-list__text h3 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  .services-list__text p {
+    font-size: 13px;
+  }
+
+  .stats-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+  }
+
+  .stats-list {
+    flex-direction: column;
+  }
+
+  .about-us-section {
+    padding: 0;
+    padding-top: 40px;
+  }
+
+  .about-us-paragraphs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-us-paragraphs__left {
+    margin-right: 0px;
+    max-width: 60%;
+  }
+
+  .about-us-paragraphs__right {
+    max-width: 60%;
+  }
+
+  .about-us-paragraphs__italic {
+    font-size: 15px;
+  }
+
+  .about-us-paragraphs__normal {
+    font-size: 12px;
+  }
+
+  .about-us-section__sponsors {
+    flex-direction: column;
+    padding-top: 30px;
+    transform: translateX(0px);
+    max-width: 700px;
+  }
+
+  .sponsors img {
+    margin-bottom: 30px;
+  }
+
+  .line-section {
+    width: 90%;
+    height: 1px;
+  }
+
+  .info-section {
+    padding-top: 50px;
+  }
+
+  .info-text {
+    padding-bottom: 40px;
+  }
+
+  .info-text h2 {
+    font-size: 25px;
+  }
+
+  .info-text p {
+    font-size: 13px;
+    margin-bottom: 15px;
+  }
+
+  .info-text__list li {
+    font-size: 13px;
+  }
+
+  .info-img img {
+    width: 90%;
+  }
+
+  .info-img__box {
+    width: 90%;
+  }
+
+  .btn--blue :hover {
+    padding: 10px 50px;
+  }
+
+  .get-started-section {
+    padding: 50px 0 40px;
+  }
+
+  .diff-size-title--start {
+    margin-bottom: 15px;
+  }
+
+  .get-started-section__btn {
+    margin-top: 15px;
+  }
+
+  .main-form {
+    max-width: 70%;
+  }
+}
+
+/* Media query per tabelta */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .diff-size-title p {
+    font-size: 18px;
+  }
+
+  .main-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .services-list__text {
+    margin-bottom: 20px;
+  }
+
+  .about-us-paragraphs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-us-paragraphs__left {
+    max-width: 65%;
+    margin-bottom: 20px;
+  }
+
+  .about-us-paragraphs__right {
+    max-width: 65%;
+  }
+
+  .about-us-section__sponsors {
+    transform: translateX(0px);
+  }
+
+  .sponsors:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  .line-section {
+    max-width: 90%;
+  }
+
+  .info-text h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .info-text p {
+    font-size: 18;
+  }
+
+  .info-text__list li {
+    font-size: 16px;
+  }
+
+  .diff-size-title--start h2 {
+    font-size: 38px;
+  }
+
+  .get-started-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .get-started-text p {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .get-started-text__paragraph {
+    max-width: 60%;
+  }
+
+  .main-form {
+    max-width: 65%;
+  }
+
+  .form-field label {
+    font-size: 16px;
+  }
+
+  .form-field__input::placeholder {
+    font-size: 18px;
+  }
+}
