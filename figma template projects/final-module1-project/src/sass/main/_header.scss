@@ -1,0 +1,64 @@
+.header {
+  position: absolute;
+  padding-top: 2.6%;
+  z-index: 1;
+
+  &-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__nav {
+    display: flex;
+    li a {
+      font-size: 14px;
+      line-height: 1.214em;
+      display: flex;
+      align-items: center;
+      text-transform: uppercase;
+      color: #ffffff;
+      margin-right: 1.43em;
+      transition: $transition1;
+
+      &:hover {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .hamburger {
+    display: none;
+    z-index: 3;
+    position: relative;
+
+    span {
+      width: 30px;
+      height: 5px;
+      display: block;
+      background-color: #ffffff;
+      border-radius: 20px;
+
+      &:not(:last-child) {
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+
+.btn a {
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  background: transparent;
+  padding: 15px 25px;
+  color: #ffffff;
+  font-weight: normal;
+  cursor: pointer;
+  transition: $transition1;
+
+  &:hover {
+    background: #ffffff;
+    font-weight: normal;
+    color: $main-color;
+  }
+}

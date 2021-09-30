@@ -1,0 +1,10 @@
+.footer {
+  background: #fafafa;
+  &__text {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1.167em;
+    color: #101010;
+    padding: 3.2% 0;
+  }
+}
