@@ -10,14 +10,16 @@ function findTheEnigma(number) {
   if (number / 2 > enigma) {
     return "Vlera e enigmes eshte per te pakten dy here me e vogel!";
   }
-  if (number == enigma) {
-    return "Vlera e enigmes eshte e sakt";
-  }
+  // if (number == enigma) {
+  //   return "Vlera e enigmes eshte e sakt";
+  // }
 
-  return "Vlera e enigmes nuk eshte qelluar";
+  return number == enigma
+    ? "Vlera e enigmes eshte e sakt"
+    : "Vlera e enigmes nuk eshte qelluar";
 }
 
-console.log(findTheEnigma(400));
+console.log(findTheEnigma(100));
 
 console.log(
   "--------------------------------------------------------------------"
@@ -53,26 +55,23 @@ console.log(
   "--------------------------------------------------------------------"
 );
 
-var otherColorMessage = "E kuqe";
+function switchColorMessage(color) {
+  switch (color) {
+    case "E kalter":
+      return "Your color is blue";
 
-switch (otherColorMessage) {
-  case "E kalter":
-    console.log("Your color is blue");
-    break;
+    case "E verdhe":
+      return "Your color is yellow";
 
-  case "E verdhe":
-    console.log("Your color is yellow");
-    break;
+    case "E kuqe":
+      return "Your color is red";
 
-  case "E kuqe":
-    console.log("Your color is red");
-    break;
+    case "E gjelber":
+      return "Your color is green";
 
-  case "E gjelber":
-    console.log("Your color is green");
-    break;
-
-  default:
-    console.log("Please pick one of the options");
-    break;
+    default:
+      return "Please pick one of the options";
+  }
 }
+
+console.log(switchColorMessage("E gjelber"));
