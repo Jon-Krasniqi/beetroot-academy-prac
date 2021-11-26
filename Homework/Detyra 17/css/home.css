@@ -1,0 +1,145 @@
+.main-banner {
+  display: flex;
+  padding: 100px;
+  margin-top: 110px;
+  border-radius: 64px;
+  margin-bottom: 188px;
+  background: #f6f7fb;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: min(63vh, 600px);
+}
+
+.main-banner .section-title {
+  width: 50%;
+}
+
+.categories {
+  margin-bottom: 110px;
+}
+
+.categories-slider .owl-nav {
+  right: 0;
+  top: -90px;
+  display: flex;
+  position: absolute;
+}
+
+.categories-slider .owl-nav-button {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  border-radius: 100%;
+  justify-content: center;
+  background: #f6f7fb !important;
+}
+
+.categories-slider .owl-nav button.owl-prev {
+  margin-right: 15px;
+}
+
+.categories-slider__item {
+  display: flex;
+  min-height: 120px;
+  padding: 30px 10px;
+  align-items: center;
+  border-radius: 24px;
+  background: #f6f7fb;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.categories-slider__icon {
+  max-width: 25px;
+  max-height: 25px;
+}
+
+.categories-slider__icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.categories-slider__name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a202c;
+  line-height: 150%;
+  text-align: center;
+}
+
+.products-section {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.products-section__load {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.products-list {
+  display: grid;
+  row-gap: 30px;
+  column-gap: 45px;
+  margin-bottom: 130px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.products-list__item {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products-list__image {
+  width: 100%;
+  height: 275px;
+  display: flex;
+  padding: 45px;
+  position: relative;
+  margin-bottom: 34px;
+  align-items: center;
+  border-radius: 48px;
+  background: #f6f7fb;
+  justify-content: center;
+}
+
+.products-list__image img {
+  width: auto;
+  height: 100%;
+}
+
+.products-list__title {
+  width: 100%;
+  font-size: 24px;
+  font-weight: 600;
+  color: #1a202c;
+  line-height: 167%;
+  margin-bottom: 14px;
+}
+
+.products-list__information {
+  display: flex;
+  align-items: center;
+}
+
+.products-list__price {
+  font-size: 20px;
+  color: #1a202c;
+  font-weight: 600;
+  line-height: 160%;
+  text-align: center;
+}
+
+.products-list__price--sale {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1em;
+  margin-right: 10px;
+  text-align: center;
+  text-decoration: line-through;
+  color: rgba(26, 32, 44, 0.24);
+}
